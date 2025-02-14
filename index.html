@@ -1,1 +1,18 @@
-<div>Mon cv propre en une minute</div>
+<div>Today is a new day. Let's talk about how to edit a GitHub repo on your local machine.</div>
+<a>To be able to do that, we can follow the steps below:</a>
+<ol>
+    <li>Open your IDE first.</li>
+    <li>Go to the directory where you want to load your repo.</li>
+    <li>Go to your GitHub account and copy the HTTPS link of your repo. To get that link, click on "Code."</li>
+    <li>Come back to your IDE and type the following command: `git clone "link you have copied"` and press Enter.</li>
+    <li>After the previous step, you will have all your repo files on your local computer.</li>
+</ol>
+<p>If you want to modify a file in your repo, follow the steps below:</p>
+<ol>
+    <li>Open the file you want to edit, make your changes, and save it.</li>
+    <li>Go to the terminal inside your IDE and write `git status` to see which files Git is tracking.</li>
+    <li>Enter the command `git commit` followed by `-m "your comment or description"` and `-m "another comment"` and press Enter.</li>
+    <li>Type `git add .` for all modified files or `git add filename` for a specific file.</li>
+    <li>Type `git status` to confirm that the changes have been successfully made. The modified files will appear in green.</li>
+    <li>To save your changes to the remote repository, type `git push origin "name of your branch"`.</li>
+</ol>
